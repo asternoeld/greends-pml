@@ -1,14 +1,14 @@
-# Practical Machine Learning, Green Data Science, 2nd semester 2024/2025
+# Practical Machine Learning, Green Data Science, 2nd semester 2025/2026
 
 ---
 Instructor: Manuel Campagnolo, ISA/ULisboa (mlc@isa.ulisboa.pt)
 
-Teaching assistant: Dominic Welsh (djwelsh@edu.ulisboa.pt)
+Teaching assistant: Mekaela Stevenson (mekaela@edu.ulisboa.pt)
 
-The course will follow a mixed flipped classroom model, where students are supposed to work on suggested topics autonomously before classes. Work outside class will be based on a range of Machine Learning resources including the book *Sebastian Raschka, Yuxi (Hayden) Liu, and Vahid Mirjalili. Machine Learning with PyTorch and Scikit-Learn. Packt Publishing, 2022*. During classes, Python notebooks will be run on Google Colab.
+The course will follow a mixed flipped classroom model, where students are supposed to work on suggested topics autonomously before classes. Work outside class will be based on a range of Machine Learning resources including the book *Sebastian Raschka, Yuxi (Hayden) Liu, and Vahid Mirjalili. Machine Learning with PyTorch and Scikit-Learn. Packt Publishing, 2022*. During classes, Python notebooks will be typically run on Google Colab.
 
 Links for class resources:
-  - [Fenix webpage](https://fenix.isa.ulisboa.pt/courses/aaapl-283463546572013). Course official page, where final results will be posted.
+  - [Fenix webpage](https://fenix.isa.ulisboa.pt/courses/aaap-846413499992027). Course official page, where final results will be posted.
   - [Moodle ULisboa](https://elearning.ulisboa.pt/). Evaluation: assignments. The course is called [Practical Machine Learning](https://elearning.ulisboa.pt/course/view.php?id=10469). Students need to self-register in the Moodle page for the course.
   - [Kaggle](https://www.kaggle.com/). Access to data; candidate problems for the final project.
 
