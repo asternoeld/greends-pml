@@ -64,7 +64,9 @@ The goal of the following classes is to understand how ML models can be trained 
 - See [Basic concepts notes](docs/T2_basic_concepts_classification.md).
 - Check this very basic description of [Logistic Regression](https://www.youtube.com/watch?v=OlKL5nzm-1w)
 - Entropy, cross-entropy and KL Divergence: check video on [KL divergence 0-4'20](https://www.youtube.com/watch?v=tXE23653JrU) and [A Short Introduction to Entropy, Cross-Entropy and KL-Divergence, with application to ML](https://www.youtube.com/watch?v=ErfnhcEV1O8)
-- Exercise: standardize data, apply logistic regression; adjust regularization and batch size for the [Breast Cancer Wisconsin data set](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
+- Exercise (part 1): read data, split in train and test, standardize data, build from scratch a `LogisticRegression class`, fit it with the training data, evaluate the accuracy with test data and plot the fitted regression with the linear combination of predictors on the *x* axis, and the probabilities on the *y* axis; the plot should depict the malignant cases and the benign cases in different colors  [Breast Cancer Wisconsin data set](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
+- Exercise (part 2): adapt the `LogisticRegression` class so you can process training data in batches;
+- Exercise (part 3): adapt it further to include a regularization term in the loss function.
 
 <!---
 
