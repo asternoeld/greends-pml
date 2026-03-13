@@ -8,7 +8,7 @@ This is a model for classification, where labels are categories. The goal, as fo
 
 The example below shows a decision tree for the iris data set. The root node represents the 4-dimensional space defined by the variables sepal length,sepal width, petal length, petal width. This is a 3-class problem where labels are the varieties setosa, versicolor, virginica.
 
-We call depth of the decision tree to the maximum number of splits to define a leaf node. Note that the code establishes `max_depth=4` to prevent the tree from growing more than 4 levels. The figure indicates the number of examples (or training samples) that lie in each node of the tree. [Script (link to Colab)](./notebooks/T3_basic_decision_tree.ipynb)
+We call depth of the decision tree to the maximum number of splits to define a leaf node. Note that the code establishes `max_depth=4` to prevent the tree from growing more than 4 levels. The figure indicates the number of examples (or training samples) that lie in each node of the tree. [Script (link to Colab)](~/notebooks/T3_basic_decision_tree.ipynb)
 
 <!---
 <details>
