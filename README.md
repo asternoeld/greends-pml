@@ -155,7 +155,7 @@ The goal of the following classes is to understand how ML models can be trained 
 - Check this video for an easy introduction to decision trees using `sklearn.tree.DecisionTreeClassifier`: [Pokemon classifier](https://www.youtube.com/watch?v=LLBGiAAZqAM)
 - The risk of over-fitting: train and development (validation) data sets
 - Decision tree hyper-parameters, e.g. `max_depth`
-- Exercise: create a decision tree for the [Soil detection for cotton crop problem](https://www.kaggle.com/datasets/zohasohail/soil-detection-for-cotton-crop) and determine the best values for hyper-parameters Maximum depth and Minimum leaf size using a development (validation) set.
+- Exercise: create a decision tree classifier for the [Soil detection for cotton crop problem](https://www.kaggle.com/datasets/zohasohail/soil-detection-for-cotton-crop). Use as predictors `['ph', 'Temperature', 'Humidity', 'Density', 'Electrical Conductivity', 'N', 'P', 'K']` and as response `'Cotton Crop'`. Determine the best values for hyper-parameters Maximum depth and Minimum leaf size using a development (validation) set. Visualize the model with `plot_tree`. 
 - Comparision of logistic regression with decision trees for classification:
 
 | Model | Logistic Regression | Decision tree |
