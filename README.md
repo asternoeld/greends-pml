@@ -155,7 +155,7 @@ The goal of the following classes is to understand how ML models can be trained 
 - Check this video for an easy introduction to decision trees using `sklearn.tree.DecisionTreeClassifier`: [Pokemon classifier](https://www.youtube.com/watch?v=LLBGiAAZqAM)
 - The risk of over-fitting: train and development (validation) data sets
 - Decision tree hyper-parameters, e.g. `max_depth`
-- Exercise: create a decision tree classifier for the [Soil detection for cotton crop problem](https://www.kaggle.com/datasets/zohasohail/soil-detection-for-cotton-crop). Use as predictors `['ph', 'Temperature', 'Humidity', 'Density', 'Electrical Conductivity', 'N', 'P', 'K']` and as response `'Cotton Crop'`. Determine the best values for hyper-parameters Maximum depth and Minimum leaf size using a development (validation) set. Visualize the model with `plot_tree`. 
+- Exercise: create a decision tree classifier for the [Soil detection for cotton crop problem](https://www.kaggle.com/datasets/zohasohail/soil-detection-for-cotton-crop). Use as predictors `['ph', 'Temperature', 'Humidity', 'Density', 'Electrical Conductivity', 'N', 'P', 'K']` and as response `'Cotton Crop'`. Determine the best values for hyper-parameters Maximum depth and Minimum leaf size using a development (validation) set. Visualize the model with `plot_tree`. See [possible structure for the code](notebooks/T3_cotton_crop_problem_grid_search.ipynb). Note that `sklearn.tree.DecisionTreeClassifier` can only be applied to numerical features. If categorical features are available, they must be converted to numerical (typically using a one-hot encoder).
 - Comparision of logistic regression with decision trees for classification:
 
 | Model | Logistic Regression | Decision tree |
@@ -170,12 +170,18 @@ The goal of the following classes is to understand how ML models can be trained 
 
 ---
 
-<!---
 
 <details markdown="block">
-<summary> Data preprocessing (Mar 21, 2025): pipelines, missing data, categorical features, scaling, train and test </summary>
+<summary> Data preprocessing (Mar 20, 2026): pipelines, missing data, categorical features, scaling</summary>
 
 - See (Raschka et al, 2022), Chapter 4 (Data Preprocessing) and Chapter 6 (Streamlining workflows with pipelines)
+
+</details>
+
+<!---
+
+
+
 - Supervised learning flowchart
   <details markdown="block">
   <summary>Figure 1.9 (Raschka et al, 2022) </summary>
