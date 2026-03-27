@@ -56,6 +56,7 @@ that returns an array of scores of the estimator for each run of the cross valid
 - [GroupKFold](https://scikit-learn.org/stable/modules/cross_validation.html#stratified-group-k-fold): this a variation of k-fold which ensures that the same group is not represented in both testing and training sets
 - [StratifiedKFold](https://scikit-learn.org/stable/modules/cross_validation.html#stratified-k-fold): this is a variation of k-fold which returns stratified folds: each set contains approximately the same percentage of samples of each target class as the complete set.
 - [StratifiedGroupKFold](https://scikit-learn.org/stable/modules/cross_validation.html#stratified-group-k-fold): The idea is to try to preserve the distribution of classes in each split while keeping each group within a single split.
+- [TimeSeriesSplit](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.TimeSeriesSplit.html): Provides train/test indices to split time-ordered data, where other cross-validation methods are inappropriate, as they would lead to training on future data and evaluating on past data. 
 
 For instance, the following code stratifies folds by the target class `y`. So, if for instance there are 100 examples of class 0 and 10 examples of class 1, then all folds get 20 examples from class 0 and 2 examples for class 1 (since `n_splits=5`).
 
