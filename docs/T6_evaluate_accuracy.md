@@ -1,5 +1,5 @@
 
-# Evaluating model performanc
+# Evaluating model performance
 
 This is one of the most important topics im ML. Ourdays, it's pretty easy to build a prediction model but the model might be useless if it cannot be applied successfully to new examples.
 
