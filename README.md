@@ -219,25 +219,26 @@ The goal of the following classes is to understand how ML models can be trained 
 <details markdown="block">
 <summary> 6. Evaluation metrics (Apr 10, 2026): confusion matrix, precision, recall, F1-score, ROC curve, AUC </summary>
 - See (Raschka et al, 2022), Chapter 6: Learning Best Practices for Model Evaluation and hyper-parameter Tuning; performance evaluation metrics
-<!---
 
 </details>
 
 - See (Raschka et al, 2022), Chapter 6: Learning Best Practices for Model Evaluation and hyper-parameter Tuning
-- Looking at different performance evaluation metrics
 - Reading a confusion matrix 
 - Optimizing the precision and recall of a classification model
 - Plotting a receiver operating characteristic (ROC)
 - Scoring metrics for multiclass classification 
 - Dealing with class imbalance
-- 
 
 </details>
 
 <details markdown="block">
-<summary>  Combining Different Models for Ensemble Learning (May 2, 2025): random forest, gradient boosting, variable importance </summary>
+<summary>  Combining Different Models for Ensemble Learning (April 24, 2025): random forest, gradient boosting, variable importance </summary>
 
 - See (Raschka et al, 2022), Chapter 7:  Combining Different Models for Ensemble Learning
+
+<!---
+
+
 - See [Notes on ensemble learning and variable importance](https://github.com/isa-ulisboa/greends-pml/blob/main/docs/T5_ensemble_methods.md)
 - Ensemble classifiers
 - Random Forests
