@@ -231,6 +231,8 @@ The goal of the following classes is to understand how ML models can be trained 
 
 </details>
 
+---
+
 <details markdown="block">
 <summary>  7. Combining Different Models for Ensemble Learning (April 24, 2025): random forest, gradient boosting, variable importance </summary>
 
