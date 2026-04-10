@@ -170,12 +170,12 @@ ROC curves typically feature true positive rate (TPR) on the Y axis, and false p
 <details markdown="block">
 <summary>Example of a ROC curve</summary>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Roc_curve.svg/220px-Roc_curve.svg.png" width="400" >
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Roccurves.png" width="400" >
 <img src="https://miro.medium.com/v2/resize:fit:702/format:webp/0*pF07ZmzBqbvkvqJO.png" width="400" >
 
 </details>
 
-The **AUC** is the area under the ROC curve. Its maximum value is 1, when the classifier return a correct decision regardless of the threshold value. *AUC* does not depend on the classification threshold, since it integrates all thresholds.
+The **AUC** is the area under the ROC curve. Its maximum value is 1, when the classifier return a correct decision regardless of the threshold value. *AUC* does not depend on the classification threshold, since it integrates all thresholds. It is used mostly to compare models.
 
 [**Script** for drawing a ROC curve and computing the AUC from the classifier for the Wine Quality data set](https://github.com/isa-ulisboa/greends-pml/blob/main/notebooks/wine_quality_RocCurveDisplay.ipynb)
 
