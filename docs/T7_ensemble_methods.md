@@ -195,7 +195,9 @@ base learners based on their overall predictive performance.
 
 **AdaBoost** is a *dependent* ML method since each tree is an improvement over previous trees in the sequence. This is the opposite of *random forests* where the tree are grown independently.
 
-For clear details and nice illustrations, see https://medium.com/towards-data-science/adaboost-classifier-explained-a-visual-guide-with-code-examples-fc0f25326d7b
+See [What is adaboost: a friendly explanation](https://www.youtube.com/watch?v=AtYN8QP-U6w) for a clear and very simple example that shows how the weights is each weak learner are calculated. 
+
+<!--- For clear details and nice illustrations, see https://medium.com/towards-data-science/adaboost-classifier-explained-a-visual-guide-with-code-examples-fc0f25326d7b--->
 
 </details>
 
