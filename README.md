@@ -234,7 +234,7 @@ The goal of the following classes is to understand how ML models can be trained 
 ---
 
 <details markdown="block">
-<summary>  7. Combining Different Models for Ensemble Learning (April 24, 2025): random forest, gradient boosting, variable importance </summary>
+<summary>  7. Combining Different Models for Ensemble Learning (April 24, 2026): random forest, gradient boosting, variable importance </summary>
 
 - See (Raschka et al, 2022), Chapter 7:  Combining Different Models for Ensemble Learning
 - See [Notes on ensemble learning and variable importance](https://github.com/isa-ulisboa/greends-pml/blob/main/docs/T7_ensemble_methods.md)
@@ -242,7 +242,7 @@ The goal of the following classes is to understand how ML models can be trained 
 - Random Forests
 - Gradient boosting
 - Exercise: adapt the classification pipeline to apply the XGBoost classifier (Montesinho burned area data set)
-- Variable importance: MDI (Gini importance) and MDA (permutation importance)
+- Variable importance: MDI (Gini importance) and  MDA (permutation importance) for Random Forest; SHAP for generic ML models.
 - Pipeline that includes feature selection, followed by hyperparameter search: https://github.com/isa-ulisboa/greends-pml/blob/main/notebooks/wine_region_pipeline_XGB_CV_gridsearch_featselection.ipynb
 
 </details>
