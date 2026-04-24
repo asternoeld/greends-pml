@@ -237,11 +237,7 @@ The goal of the following classes is to understand how ML models can be trained 
 <summary>  7. Combining Different Models for Ensemble Learning (April 24, 2025): random forest, gradient boosting, variable importance </summary>
 
 - See (Raschka et al, 2022), Chapter 7:  Combining Different Models for Ensemble Learning
-
-<!---
-
-
-- See [Notes on ensemble learning and variable importance](https://github.com/isa-ulisboa/greends-pml/blob/main/docs/T5_ensemble_methods.md)
+- See [Notes on ensemble learning and variable importance](https://github.com/isa-ulisboa/greends-pml/blob/main/docs/T7_ensemble_methods.md)
 - Ensemble classifiers
 - Random Forests
 - Gradient boosting
@@ -253,11 +249,13 @@ The goal of the following classes is to understand how ML models can be trained 
 
 
 <details markdown="block">
-<summary> Backpropagation (Mar 7, 2025): SGD, forward pass, backward pass, PyTorch, optimizer, ... </summary>
-
+<summary> Neural networks, Backpropagation (May 8, 2026): gradient descent, forward pass, backward pass, PyTorch, optimizer, ... </summary>
 
 - Video on the Perceptron and early times of AI [The First Neural Networks](https://www.youtube.com/watch?v=e5dVSygXbAE&t=88s)
 - See (Raschka et al, 2022), Chapter 2: Training Simple Machine Learning Algorithms for Classification
+
+<!---
+
 - See [Basic concepts notes](https://github.com/isa-ulisboa/greends-pml/blob/main/docs/T1_basic_concepts.md). 
 - Revise solutions for the problems listed in the previous class.
 - Backpropagation and computation graph
