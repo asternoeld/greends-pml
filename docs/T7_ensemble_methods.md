@@ -232,6 +232,8 @@ See [What is adaboost: a friendly explanation](https://www.youtube.com/watch?v=A
 
 Gradient Boost is also a *dependent* method, since each tree is an improvement of the earlier trees. Gradient Boost provides a framework to build an ensemble of trees based on an arbitrary loss function. In Gradient Boosting, each new tree is computed using a **simple classifier** (also called weak inducer, that just performs better than random) over the **residuals** from the previous model.
 
+You can find a brief and informal description of the ideas behind gradient boosting at [Visual Guide to Gradient Boosted Trees (xgboost), 5'](https://www.youtube.com/watch?v=TyvYZ26alZs) and a nice and brief description of the maths of gradient boosting at [Gradient Boosting : Data Science's Silver Bullet (15')](https://www.youtube.com/watch?v=en2bmeB4QUo)
+
 For details and very nice illustrations, look at the two following posts:
 
 1. [Regression](https://towardsdatascience.com/all-you-need-to-know-about-gradient-boosting-algorithm-part-1-regression-2520a34a502)
